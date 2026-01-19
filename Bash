@@ -1,0 +1,2 @@
+npm init -y
+npm install xrpl dotenv express ipfs-http-client
