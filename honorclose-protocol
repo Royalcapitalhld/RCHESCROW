@@ -1,0 +1,13 @@
+honorclose-protocol/
+├── contracts/                 # XRPL Hooks (Rust) or Escrow Logic
+├── escrow-engine/             # Node.js/Python backend (KYC, title, recording oracle)
+├── ui/                        # React dApp (wallet connect, deal dashboard)
+├── docs/
+│   ├── SPEC.md                # Protocol spec
+│   ├── DOUBLE_CLOSE_FLOW.md
+│   └── TITLE_ORACLE.md
+├── scripts/
+│   └── deploy-xrpl.js         # Deploy escrow account & hooks
+├── .env.example
+├── README.md
+└── LICENSE
